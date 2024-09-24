@@ -29,7 +29,7 @@
                 <img src="assets/coin.png" alt="">
 
 
-                <p class="text-black ">5500</p>
+                <p id="yourblance" class="text-black ">10000</p>
 
                 <p class="text-black bold">BDT</p>
             </div>
@@ -42,13 +42,12 @@
     <section class="bg-white  px-5 py-5">
         <div class="container mx-auto py-5 px-5  ">
             <div class="flex justify-center border-black rounded-full">
-                <button class="btn btn-outline text-gray-500  ">
-                    Donate
-                </button>
+                <button onclick="window.location.href='home.html'"; class="btn btn-outline oncl">
+                    Donate</button>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-                <button class="btn btn-outline text-black mb-10">
-                    History
+                <button id="historytab" class="btn btn-outline text-black mb-10" onclick="window.location.href='History.html'";>
+                    History 
                 </button>
             </div>
 
@@ -101,7 +100,7 @@
                     <div class="flex">
                         <img src="assets/coin.png" alt="">
                         <div class="flex px-2">
-                            <span class="text-black font-extrabold">1020</span>
+                            <span id="currentammountforcard2" class="text-black font-extrabold">2024</span>
                             <p class="px-2 text-black font-extrabold">BDT</p>
 
                         </div>
@@ -137,7 +136,7 @@
                     <div class="flex">
                         <img src="assets/coin.png" alt="">
                         <div class="flex px-2">
-                            <span class="text-black font-extrabold">1020</span>
+                            <span id="currentammountforcard3" class="text-black font-extrabold">50000</span>
                             <p class="px-2 text-black font-extrabold">BDT</p>
 
                         </div>
@@ -180,6 +179,7 @@
     </section>
     <script src="History.js"></script>
     <script src="home.js"></script>
+    <script src="utilities.js"></script>
 
 </body>
 
