@@ -8,11 +8,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
-<body>
-    <section class="container mx-auto">
+<body class="bg-green-400 ">
+    <section class="container mx-auto px-5 py-5">
         <div class="flex items-center justify-between">
             <div>
-                <button class="bg-lime-400 px-5 py-1 rounded-lg text-black font-bold">Blog</button>
+                <button onclick="window.location.href='Blog.html'" class="bg-lime-400 px-5 py-1 rounded-lg text-black font-bold">Blog</button>
             </div>
             <div class="flex items-center">
 
@@ -44,10 +44,16 @@
                     Donate</button>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-                <button id="historytab" class="btn btn-outline text-black mb-10" >
+                <button onclick="window.location.href='History.html'"; id="historytab" class="btn bg-lime-400 text-black mb-10" >
                     History 
                 </button>
             </div>
+            <div id="history-list" >
+
+            </div>
+
+
+
 
 
 </body>
