@@ -85,34 +85,3 @@ closeModalBtn.addEventListener('click', function() {
 });
 
 
-const modalOverlay2 = document.getElementById('modalOverlay');
-const openModalBtn2 = document.getElementById('donate-now-btn2');
-const closeModalBtn2 = document.getElementById('closeModalBtn');
-
-// Open modal on button click
-openModalBtn.addEventListener('click', function() {
-    modalOverlay.style.display = 'flex'; // Display the modal (flex to use centering)
-});
-
-// Close modal on button click
-closeModalBtn.addEventListener('click', function() {
-    modalOverlay.style.display = 'none'; // Hide the modal
-});
-
-
-
-
-
-const modalOverlay3 = document.getElementById('modalOverlay');
-const openModalBtn3 = document.getElementById('donate-now-btn3');
-const closeModalBtn3 = document.getElementById('closeModalBtn');
-
-// Open modal on button click
-openModalBtn.addEventListener('click', function() {
-    modalOverlay.style.display = 'flex'; // Display the modal (flex to use centering)
-});
-
-// Close modal on button click
-closeModalBtn.addEventListener('click', function() {
-    modalOverlay.style.display = 'none'; // Hide the modal
-});
